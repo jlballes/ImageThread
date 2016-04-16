@@ -1,0 +1,8 @@
+image_thread:
+    resource: "@ImageThreadBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+api:
+    type:     rest
+    resource: ImageThreadBundle\Controller\ApiController
